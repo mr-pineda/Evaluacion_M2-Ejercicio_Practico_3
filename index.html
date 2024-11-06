@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="navbar fixed-top bg-primary pt-1 pb-0">
-      <div class="navbar-brand fw-bold text-light ps-1">
+      <div class="navbar-brand fw-bold text-light ps-1 col">
         <img
           src="assets/img/logo.png"
           alt="Logo del Hospital"
@@ -24,7 +24,7 @@
       </div>
       <nav class="header__nav">
         <a
-          class="header__nav__link text-decoration-none text-light bg-dark fw-bold rounded-top"
+          class="header__nav__link text-decoration-none text-light bg-dark fw-bold rounded"
           href="index.html"
           >Inicio</a
         >
@@ -44,8 +44,8 @@
       <h1 class="showcase__title">Hospital Top Top Top</h1>
       <p class="showcase__subtitle">N° 1 en el Ranking de Calidad</p>
     </section>
-    <section class="services__section">
-      <div class="service">
+    <div class="services__section row">
+      <div class="col service">
         <h1 class="service__title">Consultas Médicas</h1>
         <p class="service__paragraph">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nemo
@@ -56,7 +56,7 @@
           aliquid non? Voluptatibus.
         </p>
       </div>
-      <div class="service">
+      <div class="col service">
         <h1 class="service__title">Urgencias Médicas</h1>
         <p class="service__paragraph">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem nemo
@@ -67,7 +67,7 @@
           aliquid non? Voluptatibus.
         </p>
       </div>
-      <div class="service">
+      <div class="col service">
         <h1 class="service__title">Especialidades</h1>
         <ul class="service__list">
           <li>Cardiologia</li>
@@ -80,11 +80,10 @@
           <li>Geriatría</li>
         </ul>
       </div>
-    </section>
+    </div>
     <section class="testimonials">
       <h1 class="testimonials__title">Testimonios de nuestros pacientes</h1>
       <article class="testimonial">
-        <h2 class="testim_pacient">Tulio Triviño</h2>
         <p class="testim_paragraph">
           Desde el primer momento que entré al Hospital Top Top Top, supe que
           había encontrado el lugar perfecto para mi. La atención es simplemente
@@ -92,9 +91,10 @@
           infraestructura es de lujo. Sin duda, es el hospital más sofisticado
           de la ciudad. ¡No podría estar más satisfecho!
         </p>
+
+        <p class="testim_pacient">Tulio Triviño</p>
       </article>
       <article class="testimonial">
-        <h2 class="testim_pacient">Juan Carlos Bodoque</h2>
         <p class="testim_paragraph">
           Como reportero, he visto muchas cosas, pero la atención que recibí en
           el Hospital Top Top Top me dejó sorprendido. A pesar de las
@@ -103,9 +103,9 @@
           médico fue muy comprensivo y explican todo con mucha paciencia.
           Definitivamente, recomiendo este hospital a todos.
         </p>
+        <p class="testim_pacient">Juan Carlos Bodoque</p>
       </article>
       <article class="testimonial">
-        <h2 class="testim_pacient">Juanín Juan Harry</h2>
         <p class="testim_paragraph">
           Siempre he creído en la importancia de ayudar a los demás, y en el
           Hospital Top Top Top encontré un equipo médico que comparte esa misma
@@ -114,6 +114,7 @@
           rápido de lo que esperaba. Estoy muy agradecido por todo lo que
           hicieron por mí.
         </p>
+        <p class="testim_pacient">Juanín Juan Harry</p>
       </article>
     </section>
     <footer class="footer">

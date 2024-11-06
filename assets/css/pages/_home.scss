@@ -2,20 +2,25 @@
 
 // Services
 .services__section {
-  padding: 5rem 10rem;
+  padding: 3rem 10rem;
 }
 .service {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
+  padding: 2rem 0;
+  margin: 0;
 }
 .service__title {
   margin: 0;
+  text-align: center;
 }
 .service__paragraph,
 .service__list {
   margin: 0;
-  padding-left: 3rem;
+}
+.service__paragraph {
+  text-align: justify;
+}
+.service__list {
+  text-align: center;
 }
 
 // Testitmonials
@@ -32,6 +37,8 @@
   margin: 0;
   padding: 0;
   font-style: italic;
+  font-weight: bold;
+  text-align: end;
 }
 .testim_paragraph {
   margin: 0;
@@ -45,8 +52,6 @@
     padding-bottom: 1rem;
   }
   .service {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 5rem;
   }
   .service__title {
@@ -70,12 +75,9 @@
   }
   .testimonial {
     margin-bottom: 3rem;
-    display: flex;
-    flex-direction: column-reverse;
   }
   .testim_pacient {
     font-size: 1.2rem;
-    text-align: end;
   }
   .testim_paragraph {
     font-size: 1.2rem;
