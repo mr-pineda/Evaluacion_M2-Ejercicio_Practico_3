@@ -8,6 +8,7 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: abstracts.$color-primary-200;
+  margin-top: 2rem;
 }
 .showcase__title {
   font-size: 7rem;
@@ -21,6 +22,7 @@
 @include breakpoint('medium') {
   .showcase {
     padding: 5%;
+    margin-top: 3rem;
   }
   .showcase__title {
     font-size: 6rem;
