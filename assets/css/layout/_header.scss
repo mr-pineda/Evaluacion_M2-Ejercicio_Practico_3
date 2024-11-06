@@ -33,6 +33,7 @@
 .header__btn {
   flex: 1;
   display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -45,14 +46,15 @@
 .header__nav {
   flex: 1;
   display: flex;
-  margin: 0;
-  padding: 0;
+  // margin: 0;
+  // padding: 0;
 }
 .header__nav__link {
   flex: 1;
+  margin: 0;
   text-align: center;
-  color: white;
   display: flex;
+  padding: 8px;
   align-items: center;
   justify-content: center;
 }

@@ -7,24 +7,37 @@
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header__logo">
+    <header class="navbar fixed-top bg-primary pt-1 pb-0">
+      <div class="navbar-brand fw-bold text-light ps-1">
         <img
-          class="header__logo__img"
           src="assets/img/logo.png"
           alt="Logo del Hospital"
+          height="30"
+          width="30"
         />
-        <h1 class="header__logo__text">Hospital Top Top Top</h1>
+        Hospital Top Top Top
       </div>
       <div class="header__btn">
-        <button class="header__btn__item">Reservar Cita</button>
+        <button class="btn btn-lg bg-warning fw-bold text-light">
+          Agendar
+        </button>
       </div>
       <nav class="header__nav">
-        <a class="header__nav__link" href="index.html">Inicio</a>
-        <a class="header__nav__link --current" href="about.html"
+        <a
+          class="header__nav__link text-decoration-none text-light"
+          href="index.html"
+          >Inicio</a
+        >
+        <a
+          class="header__nav__link text-decoration-none text-light bg-dark fw-bold rounded-top"
+          href="about.html"
           >Equipo Médico</a
         >
-        <a class="header__nav__link" href="contact.html">Contacto</a>
+        <a
+          class="header__nav__link text-decoration-none text-light"
+          href="contact.html"
+          >Contacto</a
+        >
       </nav>
     </header>
     <section class="showcase">
