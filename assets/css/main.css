@@ -716,15 +716,10 @@ body {
 }
 
 .doctor {
-  display: flex;
   margin-bottom: 3rem;
   background-color: #c5d8f0;
   padding: 2rem 4rem;
   border-radius: 20px;
-}
-
-.doctor__info {
-  flex: 2;
 }
 
 .doctor__job {
@@ -732,9 +727,8 @@ body {
 }
 
 .doctor__img {
-  flex: 1;
-  margin-right: 5rem;
   border-radius: 50%;
+  margin: auto 0;
 }
 
 @media (max-width: 768px) {
@@ -762,7 +756,6 @@ body {
   }
   .doctor__img {
     margin: 1.5rem 0 0 0;
-    width: 40%;
   }
   .doctor__profile {
     margin: 1.5rem 0 1rem 0;
