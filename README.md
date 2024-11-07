@@ -37,7 +37,7 @@ Propuesta de página web para el **"Hospital Top Top Top"**. Esta consta de 3 p�
 
 ## TO-DO (Rúbrica)
 
-- [x] **Organización de Estilos con SASS y Modularización:** Los estilos están correctamente modularizados con SASS, utilizando archivos parciales de acuerdo al patrón 7-1. Se aplica BEM de forma consistente en la nomenclatura de clases CSS.
-- [x] **Responsividad con Media Queries:** El sitio web escompletamente responsivo, con al menos tres puntos de ruptura implementados correctamente. El diseño se adapta de manera fluida a todos los dispositivos.
-- [x] **Aplicación del Modelo de Cajas y Posicionamiento de Elementos:** El modelo de cajas está bien aplicado y el posicionamiento de los elementos es coherente, utilizando propiedades como relativo, absoluto y flotante de manera correcta.
-- [x] **Implementación de un Layout Adaptativo:** El layout es completamente adaptativo, fluido y ajusta correctament e todos los elementos a distintos tamaños de pantalla.
+- [x] **Implementación de SASS y Modularización:** SASS se utiliza para modularizar correctamente los estilos, siguiendo el patrón 7-1 con variables y mixins bien implementados. Los estilos son limpios y eficientes.
+- [x] **Aplicación de la Metodología BEM:** Se aplica correctamente la metodología BEM, con una nomenclatura clara y consistente en todas las clases CSS. Cada sección del sitio sigue las convenciones BEM.
+- [ ] **Uso de Bootstrap para Componentes y Grillas:** Bootstrap está bien integrado, utilizando la grilla correctamente para la disposición de las secciones. Al menos tres componentes de Bootstrap se implementan de manera eficaz(botones, formularios, cards, etc.).
+- [ ] **Modificación de Bootstrap con SASS:** Los estilos de Bootstrap se personalizan correctamente con SASS, modificando variables de tipografía, colores espaciados. El sitio web mantiene su responsividad tras la personalización.
