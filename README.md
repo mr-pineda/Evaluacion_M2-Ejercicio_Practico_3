@@ -15,7 +15,7 @@ Propuesta de página web para el **"Hospital Top Top Top"**. Esta consta de 3 p�
    - **Clonar el repositorio**: Puede hacerlo con cualquier gestor de repositorios. Si tiene git instalado, puede abrir una terminal en algun diretorio y ejecutar:
 
    ```bash
-   git clone https://github.com/mr-pineda/Evaluacion_M2-Ejercicio_Practico_2
+   git clone https://github.com/mr-pineda/Evaluacion_M2-Ejercicio_Practico_3
    ```
 
    - Si no tiene git instalado puede presionar el botón verde `<> Code` que está en esta página y seleccionar la opción `Download ZIP`.
